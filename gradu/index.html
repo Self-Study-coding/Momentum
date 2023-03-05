@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My page</title>
+</head>
+<body>
+    <!-- 시계 -->
+    <div>
+        <h1 class="clock">00:00:00</h1>
+    </div>
+    <!-- 시계 -->
+    <!-- 로그인 -->
+    <form id="login-form" class="hidden">
+        <input class="box"
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?"
+        />
+        <!-- <input type="submit" value="Log In" /> -->
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <!-- 로그인 -->
+    <!--  투두 -->
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do here!" required />
+        </form>
+        <ul id="todo-list"></ul>
+    <!-- 투두 -->
+    <!-- 날씨 -->
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <!-- 날씨 -->
+</body>
+    <script src="./js/index.js"></script>
+</html>
